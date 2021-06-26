@@ -2,15 +2,19 @@
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.client-list {
+.best-client_list {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.client-list li {
+.best-client_item {
   margin-right: 30px;
+
+  &:last-child {
+    margin-right: 0;
+  }
 }
-.client-link {
+.best-client_link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -22,17 +26,16 @@
   transition-property: border fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    fill: var(--link-color);
+    cursor: pointer;
+    border: 1px solid var(--link-color);
+  }
 }
-.client-list li:last-child {
-  margin-right: 0;
-}
-.client-icon {
+
+.best-client_icon {
   width: 106px;
   height: 60px;
-}
-.client-link:hover,
-.client-link:focus {
-  fill: var(--link-color);
-  cursor: pointer;
-  border: 1px solid var(--link-color);
 }

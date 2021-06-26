@@ -11,7 +11,7 @@
   line-height: 1.16;
   text-align: center;
 }
-.images-list {
+.img-section_list {
   display: flex;
   flex-direction: row;
 
@@ -19,15 +19,16 @@
   margin-top: 0;
   margin-bottom: 0;
 }
-.images-list li {
+.img-section_item {
   margin-right: 30px;
   position: relative;
-}
-.images-list li:last-child {
-  margin-right: 0px;
+
+  &:last-child {
+    margin-right: 0px;
+  }
 }
 
-.label {
+.img-section_label {
   position: absolute;
   margin: 0;
   bottom: 0;

@@ -11,10 +11,20 @@
   line-height: 1.19;
   text-decoration: none;
 }
-.studio {
+.header_logo-studio {
   color: var(--studio-color);
   font-family: Raleway;
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
+}
+.footer .logo {
+  padding: 0;
+  margin-bottom: 20px;
+}
+.footer_logo-studio {
+  color: var(--body-background-color);
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 1.19;
 }
