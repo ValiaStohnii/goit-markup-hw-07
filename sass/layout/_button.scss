@@ -1,4 +1,4 @@
-.hero-button {
+.hero__button {
   margin-top: 30px;
   align-items: center;
   text-align: center;
@@ -57,7 +57,7 @@
   }
 }
 
-.footer-button {
+.footer__button {
   display: flex;
   align-items: center;
   text-align: center;
@@ -73,13 +73,13 @@
   letter-spacing: 0.06em;
   cursor: pointer;
 }
-.icon-telegram {
+.footer__icon {
   width: 24px;
   height: 24px;
   margin-left: 10px;
 }
 
-.form-button {
+.form__button {
   width: 200px;
   height: 50px;
   display: flex;
@@ -96,6 +96,6 @@
   line-height: 1.87;
   letter-spacing: 0.06em;
   cursor: pointer;
+  margin: 0 auto;
   margin-top: 30px;
-  margin-left: 124px;
 }

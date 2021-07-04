@@ -4,11 +4,16 @@
   justify-content: center;
   margin-top: 16px;
 }
-.socials_item {
+
+.socials__item {
   margin-right: 10px;
+
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
-.socials_link {
+.socials__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -37,7 +42,7 @@
   }
 }
 
-.socials_icon {
+.socials__icon {
   width: 20px;
   height: 20px;
 }

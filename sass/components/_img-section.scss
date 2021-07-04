@@ -1,4 +1,4 @@
-.img-section {
+.image {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -11,7 +11,7 @@
   line-height: 1.16;
   text-align: center;
 }
-.img-section_list {
+.image__list {
   display: flex;
   flex-direction: row;
 
@@ -19,7 +19,7 @@
   margin-top: 0;
   margin-bottom: 0;
 }
-.img-section_item {
+.image__item {
   margin-right: 30px;
   position: relative;
 
@@ -28,7 +28,7 @@
   }
 }
 
-.img-section_label {
+.image__label {
   position: absolute;
   margin: 0;
   bottom: 0;

@@ -3,22 +3,22 @@
   padding-bottom: 60px;
   background-color: var(--footer-background-color);
 }
-.footer-container {
+.footer__container {
   display: flex;
   align-items: baseline;
 }
-.address {
+.footer__address {
   margin-bottom: 9px;
   color: var(--body-background-color);
   font-size: 14px;
   line-height: 1.71;
   font-style: normal;
 }
-.media-contacts {
+.footer__socials {
   padding-top: 12px;
   margin-left: 70px;
 }
-.footer-caption {
+.footer__caption {
   display: flex;
   align-items: center;
   margin: 0;
@@ -29,19 +29,19 @@
   color: #ffff;
 }
 
-.footer-form {
+.footer__form {
   display: flex;
   flex-direction: column;
   margin-left: 93px;
 }
 
-.form-footer {
+.footer__field {
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 12px;
 }
-.form-footer_input {
+.footer__input {
   width: 358px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);

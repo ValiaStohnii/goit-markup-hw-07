@@ -4,13 +4,13 @@
   background-color: var(--team-section-color);
 }
 
-.team-card {
+.team {
   display: flex;
   padding-left: 0;
   margin-top: 0;
   margin-bottom: 0;
 }
-.team-card_item {
+.team__item {
   margin-right: 30px;
   width: 270px;
   background-color: #ffff;
@@ -20,12 +20,12 @@
   }
 }
 
-.team-card_img {
+.team__img {
   width: 100%;
   margin-top: 0;
 }
 
-.team-card_contacts {
+.team__contacts {
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: #ffff;
@@ -33,7 +33,7 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.team-card_caption {
+.team__caption {
   margin-bottom: 10px;
   color: var(--title-text-color);
   font-weight: 500;
@@ -43,7 +43,7 @@
   letter-spacing: 0.03em;
 }
 
-.team-card_text {
+.team__text {
   margin: 0;
   font-size: 16px;
   line-height: 1.18;

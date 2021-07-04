@@ -3,7 +3,7 @@
   margin-left: auto;
   align-items: center;
 
-  .contacts_item + .contacts_item {
+  .contacts__item + .contacts__item {
     margin-left: 50px;
   }
 
@@ -12,7 +12,7 @@
   }
 }
 
-.contacts_link {
+.contacts__link {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -38,10 +38,10 @@
   }
 }
 
-.contacts_icon {
+.contacts__icon {
   margin-right: 10px;
 }
 
-.contacts_item--mail {
+.contacts__item--mail {
   margin-bottom: 9px;
 }
